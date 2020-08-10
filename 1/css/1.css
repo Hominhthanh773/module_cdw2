@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", "Open Sans", sans-serif; }
+
+.type-1 .navHeader .nav-item {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center; }
+.type-1 .navHeader .nav-link {
+  padding: 0px 20px;
+  color: black; }
+.type-1 .navHeader .nav-link:after {
+  display: none; }
+.type-1 .navHeader .dropdown:hover > .dropdown-menu {
+  display: block;
+  padding: 0;
+  border: none;
+  border-top: 2px solid #75b08a;
+  border-radius: 0px;
+  top: 58px; }
+.type-1 .navHeader .dropdown-menu a {
+  border-top: 1px solid #F1F0F0;
+  padding: 7px 20px !important; }
+.type-1 .navHeader .dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none; }
+.type-1 .carousel-item {
+  background-image: url("../images/bg-slide1.jpg"); }
+  .type-1 .iconArrow img {
+    position: absolute;
+    bottom: 50%; }
+.type-1 .nav-menu {
+  width: 100%;
+  height: 520px;
+  background-size: cover;
+  position: relative; }
+  .type-1 .nav-menu .menu {
+    color: #fffdfd;
+    list-style-type: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    width: 100%;
+    padding-top: 35px;
+    position: relative;
+    z-index: 9999; }
+    .type-1 .nav-menu .menu .logo-menu {
+      background-image: url("../images/logo.png"); }
+    .type-1 .nav-menu .menu .menu-item {
+      float: left;
+      width: 12%;
+      word-spacing: 5px;
+      letter-spacing: 3px;
+      cursor: pointer; }
+      .type-1 .nav-menu .menu .menu-item .menu-item:first-child {
+        width: 30%; }
+      .type-1 .nav-menu .menu .menu-item .menu-item:hover, .type-1 .nav-menu .menu .menu-item .sub-menu .sub-item:hover, .type-1 .nav-menu .menu .menu-item .sub-menu .sub-item[selected] {
+        color: #c5a47e !important; }
+      .type-1 .nav-menu .menu .menu-item .menu-item:nth-child(2) {
+        width: 15%; }
+.type-1 .description {
+  text-align: right;
+  font-family: 'montserratlight', sans-serif;
+  margin-right: -20px; }
+.type-1 .description a {
+  text-decoration: none;
+  color: #c5a47e;
+  letter-spacing: 5px; }
+.type-1 .title-menu {
+  font-size: 84px;
+  font-family: 'Oswald', sans-serif;
+  word-spacing: 15px;
+  letter-spacing: 13px;
+  margin-right: -30px; }
+.type-1 .current-select {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 9999;
+  right: 12.5%;
+  bottom: 25%;
+  font-weight: 400; }
+.type-1 span.arrow-icon {
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 5px;
+  color: #1c7430; }
+.type-1 .menu-item .sub-menu {
+  background-color: white;
+  color: black;
+  /* display: none; */
+  width: 115%;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  opacity: 0;
+  transition-property: margin-top, opacity;
+  transition-duration: 0.5s, 0.5s; }
+.type-1 .menu-item:hover .sub-menu {
+  margin-top: 15px;
+  opacity: 1; }
+.type-1 .load-item {
+  color: white; }

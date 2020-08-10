@@ -1,0 +1,59 @@
+body {
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 300; }
+
+h4 {
+  font-size: 23px; }
+
+p {
+  color: #6c6c6c; }
+
+.property .property-summary {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5; }
+
+.property-detail {
+  padding: 15px;
+  background: #f6f6f6;
+  border: 1px solid #e5e5e5; }
+
+.property-detail-title {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.property-detail-content .detail-field {
+  font-size: 14px; }
+
+.property-detail-content .detail-field > span {
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+.property-detail-content .detail-field .detail-field-label {
+  font-weight: bold;
+  text-align: right;
+  clear: both; }
+
+.property-desc {
+  padding: 15px 0 0; }
+
+.property-detail-title {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+/*--------------------------------------------------------------------- Custom CSS ----------------------------------------------------------------------------------*/
+ul.links {
+  padding-left: 0;
+  margin: 0; }
+
+ul.links li {
+  list-style: none; }
+
+a {
+  color: rebeccapurple;
+  text-decoration: none; }
